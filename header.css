@@ -1,0 +1,80 @@
+header {
+    padding: 30px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 50px;
+
+}
+
+header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header a {
+    color: #4C44C1;
+    text-decoration: none;
+}
+
+header .logo {
+    display: flex;
+    float: left;
+    margin-right: 28px;
+}
+
+header .logo img {
+    width: 50px;
+}
+
+header .menu {
+    float: left;
+    position: relative;
+    top: 20px;
+}
+
+header .menu a {
+     text-transform: capitalize;
+     text-decoration: underline;
+
+}
+
+header .header-buttons {
+    float: right;
+    
+}
+
+header .header-buttons .blue-btn {
+    background: #6066F2;
+    font-size: 14px;
+    padding: 14px 46px;
+    color: white;
+    border-radius: 35px;
+    text-transform: uppercase;
+    position: relative;
+    top: 20px;
+    -webkit-box-shadow: 10px 22px 38px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 10px 22px 38px 0px rgba(0,0,0,0.2);
+    box-shadow: 10px 22px 38px 0px rgba(0,0,0,0.2);
+    
+}
+
+header .header-buttons .blue-btn .fas {
+    margin-left: 15px;
+    
+}
+
+header .header-buttons .orange-btn {
+    font-size: 14px;
+    background: #FEA83B;
+    padding: 14px 46px;
+    color: white;
+    border-radius: 35px;
+    text-transform: uppercase;
+    position: relative;
+    top: 20px;
+    -webkit-box-shadow: 10px 22px 38px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 10px 22px 38px 0px rgba(0,0,0,0.2);
+    box-shadow: 10px 22px 38px 0px rgba(0,0,0,0.2);
+    
+}

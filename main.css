@@ -1,0 +1,30 @@
+@import "reset.css";
+@import "landing-page/header.css";
+@import "landing-page/top-jumbo.css";
+
+
+/*
+FEA83B orange
+6066F2 lightblue
+B286F8 purple
+4C44C1 blue
+E6CDF9 light purple
+
+*/
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+.container-fluid {
+    margin: 0 5%;
+}
+
+.box-shadow-down {
+    -webkit-box-shadow: 10px 22px 38px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 10px 22px 38px 0px rgba(0,0,0,0.2);
+    box-shadow: 10px 22px 38px 0px rgba(0,0,0,0.2);
+}
